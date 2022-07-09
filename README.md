@@ -5,7 +5,7 @@ This was a project done for school in order to further develop skills in R as we
 
 I was in charge of interpolating the data to create a visualization of the states pollution from just the monitoring stations located near the points to be interpolated. The method of interpolation is a type of spatial interpolation called Kriging, Kriging predicts values using a weighted average of points in the neighbourhood, or in this case pollutant concentration from an average of monitoring stations nearby.
 
-To create these Kriging models the data had to be more normally distributed, and had to be fit to variogram models by creating graphs of the semivariance vs distance the models were selected that most closely resembled the plot the points were creating.
+To create these Kriging models the data had to be more normally distributed, and had to be fit to variogram models by creating graphs of the semivariance vs distance the models were selected that most closely resembled the plot the points were creating. Statistical analysis done in R.
 
 
 ![krigpm](https://user-images.githubusercontent.com/104862416/178122812-33d8a170-286d-4e46-b088-09e5ac5e86a0.png)
